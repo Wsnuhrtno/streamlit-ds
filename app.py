@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-
+import joblib
 
 # -------------------- Page config (WAJIB PALING ATAS) --------------------
 st.set_page_config(
