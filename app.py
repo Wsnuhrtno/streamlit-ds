@@ -1,6 +1,8 @@
 import streamlit as st
 import pandas as pd
 import joblib
+import sys
+st.write("Python:", sys.version)
 
 # -------------------- Page config (WAJIB PALING ATAS) --------------------
 st.set_page_config(
@@ -207,3 +209,4 @@ if st.session_state.last_pred is not None:
                     <div class="metric-label">Probabilitas High Risk</div>
                 </div>
             """, unsafe_allow_html=True)
+
